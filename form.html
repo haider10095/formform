@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #A1{
+            width: 500px;
+        }
+        #A2{
+            width: 243px;
+        }
+        #A3{
+            width: 157px;
+        
+        }
+        #A4{
+            width: 100px;
+        }
+        #A5{
+            width: 500px;
+            height: 150px;
+        }
+        #A6{
+            color: white;
+            background-color: green;
+            border: green;
+            height: 30px;
+            
+        }
+        #A7{
+            border: 1px solid gray;
+            width: 500px;
+        }
+        .input:hover{
+            border-color: green;
+        }
+        
+        body{
+            background: linear-gradient(to right, #C0C0C0, #F5F5F5); /* Silver gradient */
+            margin-left: 340px;
+            padding: 50px;
+        }
+    
+    </style>
+</head>
+<body id="A7">
+    <form >
+    <h1>Student Registraion Form</h1>
+    
+    <p>Fill the form carefully for registraion</p>
+    <br>
+    <h3>Student Name</h3>
+    <div class="row" style="display: flex; column-gap: 15px;">
+<div class="col">
+    <input type="text" id="A3" class="input">
+    <p>First Name</p>
+</div>
+<div class="col">
+    <input type="text" id="A3" class="input">
+    <p>Mid Name</p>
+</div>
+<div class="col">
+    <input type="text" id="A3" class="input">
+    <p>Last Name</p>
+</div>
+
+    </div>
+    <div class="row" style="display: flex;column-gap: 200px;">
+<div class="col">
+<h3>Birth Date</h3>
+</div>
+<div class="col">
+<h3>Gender</h3>
+</div>
+    </div>
+    <div class="row" style="display: flex;column-gap: 15px;">
+<div class="col">
+<input type="number" id="A4" class="input">
+<p>Month</p>
+</div>
+<div class="col">
+<input type="number" id="A4" class="input">
+<p>Day</p>
+</div>
+<div class="col">
+    <input type="number" id="A4" class="input">
+    <p>Year</p>
+</div>
+<div class="col">
+    <label for="">
+    <select name="" id="A3" >
+    <option value="">Please Select</option>
+    <option value="1">Female</option>
+    <option value="2">Male</option>
+</select>
+
+</div>
+    </div>
+    <br>
+    <div class="row">
+<div class="col">
+<h3>Address</h3>
+<input type="text" id="A1" class="input">
+<p>Street Address</p>
+<input type="text" id="A1" class="input">
+<p>Street Address Line 2</p>
+
+
+</div>
+</div>
+<br>
+<div class="row" style="display: flex;column-gap: 15px;">
+  <div class="col">
+    <input type="text" id="A2" class="input">
+    <p>City</p>
+    
+</div>
+<div class="col">
+    <input type="text" id="A2" class="input">
+<p>State/Province</p>
+
+</div>
+</div>
+<div class="row">
+    <input type="text" id="A1" class="input">
+<p>Postal/Zip Code</p>
+</div>
+
+    <div class="row" style="display: flex;column-gap: 15px;">
+<div class="col">
+<h3>Student E-mail</h3>
+<input type="text" placeholder="ex: John@gmail.com" id="A2" class="input">
+<p>example@example.com</p>
+</div>
+<div class="col">
+<h3>Mobile Number</h3>
+<input type="text" placeholder="(000) 000-0000" id="A2" class="input">
+</div>
+    </div>
+    <br>
+
+    <div class="row" style="display: flex;column-gap: 15px;">
+<div class="col">
+<h3>Phone Number</h3>
+<input type="text" placeholder="(000) 000-0000" id="A2" class="input">
+</div>
+<div class="col">
+<h3>Work Number</h3>
+<input type="text" placeholder="(000) 000-0000" id="A2" class="input">
+</div>
+    </div>
+    <br>
+
+    <div class="row">
+<h3>Company</h3>
+<input type="text" id="A2" class="input">
+    </div>
+    <br>
+
+    <div class="row">
+<h3>Courses</h3>
+<select name="" id="A2">
+    <option value="">Please Select</option>
+</select>
+    </div>
+    <br>
+
+    <div class="row">
+<h3>Additional Comments</h3>
+<input type="text" id="A5" class="input">
+    </div>
+<br>
+<br>
+<hr>
+<br>
+    <div class="row" style="display: flex;column-gap: 290px;">
+<div class="col">
+<button id="A6">Submit Application</button>
+</div>
+<div class="col">
+    <button id="A6">Reset Fields</button>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
